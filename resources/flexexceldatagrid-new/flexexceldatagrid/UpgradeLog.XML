@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FlexExcelDataGrid">
+</Property><Property Name="Solution File" Value="C:\Users\Manjiri\Documents\Toy_may2012\cpp\flexexceldatagrid\FlexExcelDataGrid.sln">
+</Property><Property Name="Date" Value="03 May 2012">
+</Property><Property Name="Time" Value="02:23:38">
+</Property></Properties><Event ErrorLevel="0" Project="FlexExcelDataGrid" Source="FlexExcelDataGrid.vcproj" Description="Converting project file 'C:\Users\Manjiri\Documents\Toy_may2012\cpp\flexexceldatagrid\FlexExcelDataGrid.vcproj'.">
+</Event><Event ErrorLevel="1" Project="FlexExcelDataGrid" Source="FlexExcelDataGrid.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="2" Project="FlexExcelDataGrid" Source="FlexExcelDataGrid.vcproj" Description="Failed to upgrade ProjectReference 'C:\Users\Manjiri\Documents\Toy_may2012\cpp\flexexceldatagrid\FlexVCBridgeStaticLib\FlexVCBridgeStaticLib.vcproj'. Please make sure the file is not missing from disk, and the solution/project has the correct project reference path.">
+</Event><Event ErrorLevel="0" Project="FlexExcelDataGrid" Source="FlexExcelDataGrid.vcproj" Description="Done converting to new project file 'C:\Users\Manjiri\Documents\Toy_may2012\cpp\flexexceldatagrid\FlexExcelDataGrid.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="FlexExcelDataGrid" Source="FlexExcelDataGrid.vcproj" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,35 @@
+Glue Sprites 2.21 (2009.07.02)
+1. fixed one bug for Save to single file
+
+Glue Sprites 2.2 (2009.06.30)
+1. added single folder for the sliced pictures;
+2. added checkbox "pingpong" for Preview.
+3. fixed bag with image spliter (when a source image isn't multiple for tile size)
+
+Glue Sprites 2.1 (2009.06.26)
+1. added Image Resize;
+2. added minimum restriction by width and height screen for MainForm and Image Resize Form;
+3. fixed some small bugs;
+4. increase speed for preview;
+5. added support Drag&Drop;
+
+Glue Sprites 2.0 (2009.06.23)
+1. added Image Resize;
+2. rewriting all source code with use Framework .NET 2.0;
+3. now it's free.
+
+
+FAQ:
+Why Glue Sprites save file only *.png format?
+  Because *.png format saving picture without loss quality. If you need another format, please convert it manually.
+
+
+Any comments are welcome.
+
+Thanks for using Glue Sprites.
+
+Best Regards, 
+NCE Software Games.
+WWW: http://ncesoftware.com
+Email: support@ncesoftware.com
+

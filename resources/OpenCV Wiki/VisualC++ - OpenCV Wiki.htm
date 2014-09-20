@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0049)http://opencv.willowgarage.com/wiki/VisualC%2B%2B -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" async="" src="./VisualC++ - OpenCV Wiki_files/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17821189-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<meta name="robots" content="index,nofollow">
+
+<title>VisualC++ - OpenCV Wiki</title>
+<script type="text/javascript" src="./VisualC++ - OpenCV Wiki_files/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="./VisualC++ - OpenCV Wiki_files/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="./VisualC++ - OpenCV Wiki_files/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="./VisualC++ - OpenCV Wiki_files/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="./VisualC++ - OpenCV Wiki_files/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static193/rightsidebar/css/msie.css">
+<![endif]-->
+
+
+
+
+
+<link rel="Start" href="http://opencv.willowgarage.com/wiki/Welcome">
+<link rel="Alternate" title="Wiki Markup" href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=print">
+<link rel="Search" href="http://opencv.willowgarage.com/wiki/FindPage">
+<link rel="Index" href="http://opencv.willowgarage.com/wiki/TitleIndex">
+<link rel="Glossary" href="http://opencv.willowgarage.com/wiki/WordIndex">
+<link rel="Help" href="http://opencv.willowgarage.com/wiki/HelpOnFormatting">
+<script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script></head>
+
+<body lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="./VisualC++ - OpenCV Wiki_files/VisualC++ - OpenCV Wiki.htm">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput" style="display: none;">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search" class="disabled">
+<input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles" disabled="">
+<input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text" disabled="">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="http://opencv.willowgarage.com/wiki/Welcome"><img src="./VisualC++ - OpenCV Wiki_files/opencv-logo2.png" width="39" height="48" alt="OpenCV"></a></div>
+<div id="locationline">
+<div id="interwiki"><span><a href="http://opencv.willowgarage.com/wiki/Welcome" rel="nofollow">OpenCVWiki</a></span></div>
+
+<ul id="pagelocation">
+<li><a class="backlink" href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=fullsearch&context=180&value=linkto%3A%22VisualC%2B%2B%22" rel="nofollow" title="Click to do a full-text search for this title">VisualC++</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="http://opencv.willowgarage.com/wiki/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="http://opencv.willowgarage.com/wiki/FindPage">FindPage</a></li><li class="wikilink"><a href="http://opencv.willowgarage.com/wiki/HelpContents">HelpContents</a></li><li class="current"><a href="./VisualC++ - OpenCV Wiki_files/VisualC++ - OpenCV Wiki.htm">VisualC++</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="./VisualC++ - OpenCV Wiki_files/VisualC++ - OpenCV Wiki.htm">
+<div>
+    
+    <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="show">More Actions:</option><option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="RenamePage" disabled="" class="disabled">Rename Page</option>
+<option value="DeletePage" disabled="" class="disabled">Delete Page</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="show" disabled="" class="disabled">Subscribe User</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="show" disabled="" class="disabled">Remove Spam</option>
+<option value="show" disabled="" class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled="" class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+</p><h1 id="Using_OpenCV_2.1_with_MS_Visual_Studio">Using OpenCV 2.1 with MS Visual Studio</h1>
+<span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line874">OpenCV 2.1 (supports the original C interface as well as the original C++ interface, but may have issues with 64-bit and TBB) can be downloaded as a prebuilt installer (that is easy to use), or the OpenCV library can be built using CMake (takes longer but you can customize the features): <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span></p><ul><li><p class="line891"><a href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B_VS2008">OpenCV 2.1 on Visual Studio 2008 (Microsoft Visual C++ 9.0)</a>. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span></p></li><li class="gap"><p class="line891"><a href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B_VS2010">OpenCV 2.1 on Visual Studio 2010 (Microsoft Visual C++ 10.0) using prebuilt OpenCV binaries (simplest)</a>. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></p></li><li class="gap"><p class="line891"><a href="http://opencv.willowgarage.com/wiki/VisualC%2B%2B_VS2010_CMake">OpenCV 2.1 on Visual Studio 2010 (Microsoft Visual C++ 10.0) using CMake to customize OpenCV</a>. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span></p></li><li class="gap"><p class="line891"><a class="http" href="http://redkiing.wordpress.com/2010/10/03/opencv-and-visual-studio-2010-with-cmake/">An example of how to use VS2010 to build OpenCV 2.1 using the latest development code on SVN</a>. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span></p></li><li class="gap"><p class="line891"><a class="http" href="http://www.youtube.com/watch?v=XeBhwbRoKvk">A video tutorial for building and configuring OpenCV 2.1 with TBB support using Visual Studio 2010 (Microsoft Visual C++ 10.0)</a>. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span></p></li></ul><p class="line867">
+</p><h1 id="Using_OpenCV_2.2_with_MS_Visual_Studio">Using OpenCV 2.2 with MS Visual Studio</h1>
+<span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line874">OpenCV 2.2 (supports the newer C++ interface) has not been documented much so far, so if you have trouble with OpenCV 2.2, you might want to stick with OpenCV 2.1 for now, until OpenCV 2.2 is more established. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></p><p class="line874">If you use VS2010 (32-bit only), you can just download the prebuilt OpenCV EXE installer, and skip to the "Building your own projects using OpenCV 2.2 in Visual Studio" section below. Otherwise (such as for VS2008 or 64-bit), OpenCV 2.2 must be built using CMake for your compiler: <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span></p><p class="line867">
+</p><h2 id="Building_the_OpenCV_2.2_library_using_CMake">Building the OpenCV 2.2 library using CMake</h2>
+<span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><ol type="1"><li>Install CMake <span class="anchor" id="line-24"></span></li><li>Start the CMake GUI from Start menu <span class="anchor" id="line-25"></span></li><li>Select: <span class="anchor" id="line-26"></span><ul><li>Where is the source code: (the directory where CMakeLists.txt in OpenCV is stored), eg: "C:\Program Files\OpenCV2.2" <span class="anchor" id="line-27"></span></li><li>Where to build the binaries: (the directory where the OpenCV library will be built), eg: "C:\Program Files\OpenCV2.2\build" <span class="anchor" id="line-28"></span></li></ul></li><li>Press Configure and select Visual Studio 2008 or 2010 project. <span class="anchor" id="line-29"></span></li><li>Enter any parameters, like if you want to build Python bindings, documentation, shared libraries, use TBB, CUDA, Eigen2 libraries, etc. (Note that TBB, 64-bit and CUDA may still be under development and therefore buggy) <span class="anchor" id="line-30"></span></li><li>Repeat pressing Configure until no more red rows are highlighted. <span class="anchor" id="line-31"></span></li><li>When ready, press Generate. <span class="anchor" id="line-32"></span></li><li>Open the "build" directory, where you will find your VS2008 or VS2010 "sln" file. <span class="anchor" id="line-33"></span></li><li>Open the sln file in VS2008 or VS2010, and Built the Solution. This should compile the OpenCV 2.2 library into the build folder. <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span></li></ol><p class="line867">
+</p><h2 id="Building_your_own_projects_using_OpenCV_2.2_in_Visual_Studio">Building your own projects using OpenCV 2.2 in Visual Studio</h2>
+<span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line874">After you have compiled the OpenCV 2.2 library using CMake, you should configure your Visual Studio projects to use OpenCV. <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span></p><p class="line874">For the below instructions its assume that you installed OpenCV to the default location C:\OpenCV2.2 - if you selected something different (e.g. C:\Program Files\OpenCV2.2) then please adjust accordingly. <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span></p><p class="line874">First of all create your new (full or empty) C/C++ project. <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span></p><p class="line862">For an application project (*.exe) add this to your <em>project properties</em>: <span class="anchor" id="line-44"></span></p><ol type="1"><li>Go to VC++ Directories <span class="anchor" id="line-45"></span></li><li>Add 2 new Include Directories (it's the path where you installed OpenCV, include folder): <span class="anchor" id="line-46"></span><ul><li>C:\Program Files\OpenCV2.2\include <span class="anchor" id="line-47"></span></li><li>C:\Program Files\OpenCV2.2\include\opencv <span class="anchor" id="line-48"></span></li></ul></li><li>Add 1 new Library Directory (it's the path where you installed OpenCV, lib folder): <span class="anchor" id="line-49"></span><ul><li>C:\Program Files\OpenCV2.2\lib <span class="anchor" id="line-50"></span></li></ul></li><li>Go to Linker in the left menu and select Input option <span class="anchor" id="line-51"></span></li><li>Add these entries on Additional Dependencies option: <span class="anchor" id="line-52"></span><ul><li>C:\Program Files\OpenCV2.2\lib\opencv_core220d.lib <span class="anchor" id="line-53"></span></li><li>C:\Program Files\OpenCV2.2\lib\opencv_highgui220d.lib <span class="anchor" id="line-54"></span></li><li>C:\Program Files\OpenCV2.2\lib\opencv_video220d.lib <span class="anchor" id="line-55"></span></li><li>C:\Program Files\OpenCV2.2\lib\opencv_ml220d.lib <span class="anchor" id="line-56"></span></li><li>C:\Program Files\OpenCV2.2\lib\opencv_legacy220d.lib <span class="anchor" id="line-57"></span></li><li>C:\Program Files\OpenCV2.2\lib\opencv_imgproc220d.lib <span class="anchor" id="line-58"></span></li></ul></li><li>Make the content of 'OpenCV_Helloworld.cpp' as such: <span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span></li></ol><p class="line862">For a shared dynamically loadable library project (DLLs) add this to your <em>project properties</em>: <span class="anchor" id="line-61"></span></p><ol type="1"><li>C/C++  - General - Additional include Directories: <span class="anchor" id="line-62"></span><ul><li>C:\OpenCV2.2\include\opencv;C:\OpenCV2.2\include <span class="anchor" id="line-63"></span></li></ul></li><li>Linker - General - Additional library Directories: <span class="anchor" id="line-64"></span><ul><li>C:\OpenCV2.2\lib <span class="anchor" id="line-65"></span></li></ul></li><li>Linker - Input   - Additonal Dependencies (debug): <span class="anchor" id="line-66"></span><ul><li>opencv_core220d.lib opencv_highgui220d.lib opencv_video220d.lib opencv_ml220d.lib opencv_legacy220d.lib opencv_imgproc220d.lib  <span class="anchor" id="line-67"></span></li></ul></li><li>Linker - Input   - Additonal Dependencies (release): <span class="anchor" id="line-68"></span><ul><li>opencv_core220.lib opencv_highgui220.lib opencv_video220.lib opencv_ml220.lib opencv_legacy220.lib opencv_imgproc220.lib  <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span></li></ul></li></ol><p class="line867"><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span></p><pre><span class="anchor" id="line-1"></span>// OpenCV_Helloworld.cpp : Defines the entry point for the console application.
+<span class="anchor" id="line-2"></span>// Created for build/install tutorial, Microsoft Visual Studio and OpenCV 2.2.0
+<span class="anchor" id="line-3"></span>
+<span class="anchor" id="line-4"></span>#include "stdafx.h"
+<span class="anchor" id="line-5"></span>
+<span class="anchor" id="line-6"></span>#include &lt;cv.h&gt;
+<span class="anchor" id="line-7"></span>#include &lt;cxcore.h&gt;
+<span class="anchor" id="line-8"></span>#include &lt;highgui.h&gt;
+<span class="anchor" id="line-9"></span>
+<span class="anchor" id="line-10"></span>int _tmain(int argc, _TCHAR* argv[])
+<span class="anchor" id="line-11"></span>{
+<span class="anchor" id="line-12"></span>        // Open the file.
+<span class="anchor" id="line-13"></span>        IplImage *img = cvLoadImage("photo.jpg");
+<span class="anchor" id="line-14"></span>        if (!img) {
+<span class="anchor" id="line-15"></span>                printf("Error: Couldn't open the image file.\n");
+<span class="anchor" id="line-16"></span>                return 1;
+<span class="anchor" id="line-17"></span>        }
+<span class="anchor" id="line-18"></span>
+<span class="anchor" id="line-19"></span>        // Display the image.
+<span class="anchor" id="line-20"></span>        cvNamedWindow("Image:", CV_WINDOW_AUTOSIZE);
+<span class="anchor" id="line-21"></span>        cvShowImage("Image:", img);
+<span class="anchor" id="line-22"></span>
+<span class="anchor" id="line-23"></span>        // Wait for the user to press a key in the GUI window.
+<span class="anchor" id="line-24"></span>        cvWaitKey(0);
+<span class="anchor" id="line-25"></span>
+<span class="anchor" id="line-26"></span>        // Free the resources.
+<span class="anchor" id="line-27"></span>        cvDestroyWindow("Image:");
+<span class="anchor" id="line-28"></span>        cvReleaseImage(&amp;img);
+<span class="anchor" id="line-29"></span>        
+<span class="anchor" id="line-30"></span>        return 0;
+<span class="anchor" id="line-31"></span>}</pre><span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><ul><li><p class="line862">Click on "Debug -&gt; Build Solution" or "Release -&gt; Build Solution" to compile your project. If there was a compile error then you did not set the header file includes correctly. If there was a linker error then you did not set the library path or lib files correctly. <span class="anchor" id="line-105"></span></p></li><li><p class="line862">If you get the message as <strong>' 'msvcv100d.dll</strong>' ' or <strong>' 'msvcr100d.dll' </strong>' cannot be loaded then download these two dlls(search on google) and copy them to 'bin' folder.  <span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span></p></li><li class="gap">Copy any JPG image as 'photo.jpg' to 'My Documents\Visual Studio 2010\Projects\OpenCV_Helloworld\OpenCV_Helloworld', or to wherever you saved the project to. <span class="anchor" id="line-108"></span></li><li><p class="line862">Click on "Debug -&gt; Start Debugging" or "Debug -&gt; Start without Debugger". <span class="anchor" id="line-109"></span></p></li><li>You should now see an OpenCV GUI window with the photo inside. If an error window pops up about DLL files then make sure you compiled the OpenCV library using CMake (above) and have the OpenCV DLL files on your system PATH or in the same folder as the EXE of your project. If the program runs but it says it cant find the image file, then make sure your image is in the same folder as the EXE, and that it is named 'photo.jpg'.  <span class="anchor" id="line-110"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">OpenCVWiki: VisualC++  (last edited 2011-06-07 09:39:51 by <span title="SaurabhKumar @ 164.100.28.4[164.100.28.4]"><a class="nonexistent" href="http://opencv.willowgarage.com/wiki/SaurabhKumar" title="SaurabhKumar @ 164.100.28.4[164.100.28.4]">SaurabhKumar</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+
+
+
+</body></html>

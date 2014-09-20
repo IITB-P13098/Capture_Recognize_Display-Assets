@@ -1,0 +1,9 @@
+SC_CLOSE 61536
+SC_CLOSE 61536
+SC_CLOSE 61536
+SC_CLOSE 61536
+WaitForWork() says to quit
+WaitForWork() says to quit
+WaitForWork() says to quit
+WaitForWork() says to quit
+WaitForWork() says to quit
